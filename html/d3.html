@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Realtime chart </title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="/main.js" defer></script>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <link rel="stylesheet" href="/html/d3/css/style.css">
+  <script src="https://d3js.org/d3.v4.js"></script>
+  
+</head>
+<body>
+  <div id="nav"></div>     
+ 
+  <div class="metadata">
+    <img src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F99C3164E5AAC6F5B2E0EE1" alt="" class="logo">
+  </div>
+
+<div class="results">
+  <hr>
+  <h2 class="center">Density plot with slider in d3.js</h2>
+  <div class="items">
+    <input class="slider" type="range" name="mySlider" id=mySlider min="10" max="100" value="50">
+    <div class="result" id="density"></div>
+  </div>
+
+  
+  
+  <hr>
+  <h2 class="center">Wordcloud with proportional font size in d3.js</h2>
+  <div class="items">
+      <div class="result" id="wordcloud"></div>
+  </div>
+
+  
+  <hr>
+  <h2 class="center">Scatterplot with tooltip in d3.js</h2>
+  <div class="items">
+    <div class="result" id="scatterplot"></div>
+  </div>
+
+  
+</div>
+
+
+
+
+<!-- Load d3 Cloud -->
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+
+<!-- Load Examples -->
+<script src="/html/d3/js/density.js"></script>
+<script src="/html/d3/js/wordCloud.js"></script>
+<script src="/html/d3/js/scatterplot.js"></script>
+<div id="footer"></div>
+</body>    
+</html>

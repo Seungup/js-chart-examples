@@ -1,0 +1,18 @@
+.result{
+    text-align: center;    
+}
+
+canvas{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 50%;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 1em;
+    border: 1px solid skyblue;
+    background-color: rgba(0, 0, 0, 0);
+    color: skyblue;
+    margin-bottom: 24px;
+}

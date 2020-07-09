@@ -1,0 +1,17 @@
+.site-footer
+{
+  background-color:#26272b;
+  font-size:15px;
+  color:#737373;
+}
+
+.copyright-text
+{
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 0;  
+}
