@@ -5,10 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="/main.js" defer></script>
+
+
+    <!-- Load my js and css file -->
+    <link rel="stylesheet" href="/html/echarts/css/style.css">
+    <script src="/html/echarts/js/main.js"></script>
+
+    <!-- Load eCharts -->
+    <script src="/html/echarts/dist/echarts.min.js"></script>
     <title>eChart Examples</title>
 </head>
 <body>
     <div id="nav"></div> 
+
+
+    
+<!-- 높이와 너비가 지정된 Dom 을 생성합니다 -->
+<div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // DOM을 준비하고 echart 객체를 만듭니다.
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 차트 속성과 데이터를 지정합니다.
+        var option = {
+            title: {
+            	text: 'ECharts entry example'
+            },
+            tooltip: {},
+            legend: {
+            	data:['Sales']
+            },
+            xAxis: {
+            	data: ["shirt","cardign","chiffon shirt","pants","heels","socks"]
+            },
+            yAxis: {},
+            series: [{
+                name: 'Sales',
+                type: 'bar',
+                data: [5, 20, 36, 10, 10, 20]
+            }]
+        };
+
+        // 위에서 설정한 속성을 차트에 반영합니다.
+        myChart.setOption(option);
+    </script>
     <div id="footer" style="bottom: 0;"></div>
 </body>
 </html>
