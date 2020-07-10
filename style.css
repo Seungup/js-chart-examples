@@ -1,0 +1,57 @@
+body, html {
+    color: #333538;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+.items {   
+    max-width: 100%;
+    margin: auto;
+    padding: 16px 32px;
+    justify-items: center;
+    text-align: center;
+}
+
+.api {
+    display: inline-block;
+    margin-bottom: 32px;
+    vertical-align: top;
+    width: 25%;
+    text-align: center;
+}
+
+.api > .title {
+    color: #f27173;
+    text-decoration: none;
+}
+
+.api > .caption {
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    clear: both;
+    margin: 20px auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e9e7e7;
+}
+
+p {
+    margin-top: -4px;
+}
+p:hover{
+    background-color: lavenderblush;
+}
+
+.good {
+    text-align: left;
+}
+
+.bad {
+    text-align: left;
+}
