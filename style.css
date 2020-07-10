@@ -28,6 +28,7 @@ body, html {
 
 .api > .title:hover {
     background-color: linen;
+    border-radius: 15px;
 }
 
 .api > .caption {
@@ -48,14 +49,15 @@ hr {
 p {
     margin-top: -4px;
 }
-p:hover{
+.title p:hover{
     background-color: lavenderblush;
+    border-radius: 5px;
 }
 
 .good {
     text-align: left;
 }
-
 .bad {
     text-align: left;
 }
+

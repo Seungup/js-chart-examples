@@ -17,6 +17,13 @@ canvas{
     margin-bottom: 24px;
 }
 
+.btn:hover {
+    border: 1px solid deepskyblue;
+    color: rgb(0, 191, 255);
+    background-color: rgba(231, 234, 235, 0.288)
+}
+
+
 div {
     display: block;
 }
@@ -72,4 +79,16 @@ body, html {
 
 .title {
     text-align: center;
+}
+
+hr{
+    width: 24%;
+}
+
+.samples-category > .title a:hover {
+    background-color: linen;
+}
+
+.samples-category > .items p:hover {
+    background-color: linen;
 }
