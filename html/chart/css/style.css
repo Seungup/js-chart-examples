@@ -16,3 +16,60 @@ canvas{
     color: skyblue;
     margin-bottom: 24px;
 }
+
+div {
+    display: block;
+}
+
+body, html {
+    color: #333538;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    max-width: 100%;
+    margin: auto;
+    padding: 16px 32px;
+    justify-items: center;
+    text-align: center;
+}
+
+.samples-category {
+    display: inline-block;
+    margin-bottom: 32px;
+    vertical-align: top;
+    width: 20%;
+    text-align: left;
+}
+
+.samples-category > .title {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.samples-category > .items {
+    padding: 8px 0;
+}
+
+.samples-entry {
+    padding: 0 0 4px 0;
+}
+.samples-entry > .title {
+    
+    font-weight: 700;
+}
+
+.samples-category > .title a {
+    color: #f27173;
+    text-decoration: none;
+}
+
+.items {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}

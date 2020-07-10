@@ -7,75 +7,134 @@
     <script src="/main.js" defer></script>
     <title>Chart.js Examples</title>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
-
     <script src="/html/chart/js/utils.js"></script>
     <link rel="stylesheet" href="/html/chart/css/style.css">
 
 </head>
 <body>
     <div id="nav"></div> 
-
-    <div class="result">
-        <div class="chart_1">
-            <h1>Vertical Bar</h1>
-            <div id="container_1" style="width: 50%;">
-                <canvas id="canvas_1"></canvas>
+    <div class="content">
+        <div id="category" class="samples-categories">
+            <div class="samples-category">
+                <div class="title">
+                    <a href="/html/chart/html/chart.html">Bar Charts</a>
+                </div>
+                <div class="items">
+                    <p class="item">Vertical</p>
+                    <p class="item">Horizontal</p>
+                    <p class="item">Multi Axis</p>
+                    <p class="item">Stacked</p>
+                    <p class="item">Stacked Groups</p>
+                </div>
             </div>
-            <button class="btn" id="randomizeData_1">Randomize Data</button>
-            <button class="btn" id="addDataset_1">Add Dataset</button>
-            <button class="btn" id="removeDataset_1">Remove Dataset</button>
-            <button class="btn" id="addData_1">Add Data</button>
-            <button class="btn" id="removeData_1">Remove Data</button>
-        </div>
-        <hr>
-        <div class="chart_2">
-            <h1>Horizontal Bar</h1>
-            <div id="container_2" style="width: 50%;">
-                <canvas id="canvas_2"></canvas>
+            <div class="samples-category">
+                <div class="title">Line Charts</div>
+                <div class="items">
+                    <p class="item">Basic</p>
+                    <p class="item">Multi axis</p>
+                    <p class="item">Stepped</p>
+                    <p class="item">Interpolation</p>
+                    <p class="item">Line styles</p>
+                    <p class="item">Point styles</p>
+                    <p class="item">Point sizes</p>
+                </div>
             </div>
-            <button class="btn" id="randomizeData_2">Randomize Data</button>
-            <button class="btn" id="addDataset_2">Add Dataset</button>
-            <button class="btn" id="removeDataset_2">Remove Dataset</button>
-            <button class="btn" id="addData_2">Add Data</button>
-            <button class="btn" id="removeData_2">Remove Data</button>
-        </div>  
-        <hr>
-
-        <div class="chart_3">
-            <h1>Multi-axis Bar</h1>
-            <div style="width: 50%">
-                <canvas id="canvas_3"></canvas>
+            <div class="samples-category">
+                <div class="title">Area Charts</div>
+                <div class="items">
+                <p class="items"></p>
+                    <p class="items">Boundaries (line)</p>
+                    <p class="items">Stacked (line)</p>
+                    <p class="items">Radar</p>
+                </div>
             </div>
-            <button class="btn" id="randomizeData_3">Randomize Data</button>
-        </div>
-
-        <hr>
-        <div class="chart_4">
-            <h1>Stacked Bar</h1>
-            <div style="width: 50%">
-                <canvas id="canvas_4"></canvas>
+            <div class="samples-category">
+                <div class="title">Other Charts</div>
+                <div class="items">
+                    <p class="items">Scatter</p>
+                    <p class="items">Scatter - Multi axis</p>
+                    <p class="items">Doughnut</p>
+                    <p class="items">Pie</p>
+                    <p class="items">Polar area</p>
+                    <p class="items">Radar</p>
+                    <p class="items">Combo bar/line</p>
+                </div>
             </div>
-            <button class="btn" id="randomizeData_4">Randomize Data</button>
-        </div>
-
-        <hr>
-        <div class="chart_5">
-            <h1>Stacked Bar with Groups</h1>
-            <div style="width: 50%">
-                <canvas id="canvas_5"></canvas>
+            <div class="samples-category">
+                <div class="title">Linear Scale</div>
+                <div class="items">
+                    <p class="item">Step size</p>
+                    <p class="item">Min & max</p>
+                    <p class="item">Min & max (suggested)</p>
+                </div>
             </div>
-            <button class="btn" id="randomizeData_5">Randomize Data</button>
-        </div>
-
+            <div class="samples-category">
+                <div class="title">Logarithmic Scale</div>
+                <div class="items">
+                    <p class="item">Line</p>
+                    <p class="item">Scatter</p>
+                </div>
+            </div>
+            <div class="samples-category">
+                <div class="title">Time scale</div>
+                <div class="items">
+                    <p class="item">Line</p>
+                    <p class="item">Line (point data)</p>
+                    <p class="item">Time Series</p>
+                    <p class="item">Combo</p>
+                </div>
+            </div>
+            <div class="samples-category">
+                <div class="title">Scale options</div>
+                <div class="items">
+                    <p class="item">Grid lines display</p>
+                    <p class="item">Multiline labels</p>
+                    <p class="item">Filtering Labels</p>
+                    <p class="item">Non numeric Y Axis</p>
+                    <p class="item">Toggle Scale Type</p>
+                </div>
+            </div>
+            <div class="samples-category">
+                <div class="title">Legend</div>
+                <div class="items">
+                    <p class="item">Positioning</p>
+                    <p class="item">Point style</p>
+                    <p class="item">Callbacks</p>
+                </div>
+            </div>
+            <div class="samples-category">
+                <div class="title">Tooltip</div>
+                <div class="items">
+                    <p class="item">Positioning</p>
+                    <p class="item">Interactions</p>
+                    <p class="item">Callbacks</p>
+                    <p class="item">Border</p>
+                    <p class="item">HTML tooltips (line)</p>
+                    <p class="item">HTML tooltips (pie)</p>
+                    <p class="item">HTML tooltips (points)</p>
+                </div>
+            </div>
+            <div class="samples-category">
+                <div class="title">Scriptable</div>
+                <div class="items">
+                    <p class="item">Bar Chart</p>
+                    <p class="item">Bubble Chart</p>
+                    <p class="item">Pie Chart</p>
+                    <p class="item">Line Chart</p>
+                    <p class="item">Polar Area Chart</p>
+                    <p class="item">Radar Chart</p>
+                </div>
+            </div>
+            <div class="samples-category">
+                <div class="title">Advanced</div>
+                <div class="items">
+                    <p class="item">Progress bar</p>
+                    <p class="item">Content Security Policy</p>
+                </div>
+            </div>
+            </div>
     </div>
-    <script src="/html/chart/js/onLoad.js"></script>
-    <script src="/html/chart/js/chart_1.js"></script>
-    <script src="/html/chart/js/chart_2.js"></script>
-    <script src="/html/chart/js/chart_3.js"></script>
-    <script src="/html/chart/js/chart_4.js"></script>
-    <script src="/html/chart/js/chart_5.js"></script>
+    
     <div id="footer"></div>
 </body>
 </html>
