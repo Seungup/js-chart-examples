@@ -1,0 +1,15 @@
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.item {
+    margin: 1em auto;
+    margin-bottom: 1em;
+}
+
+hr{
+    width: 75%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
