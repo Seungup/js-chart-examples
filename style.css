@@ -21,9 +21,13 @@ body, html {
     text-align: center;
 }
 
-.api > .title {
+.api > .title a {
     color: #f27173;
     text-decoration: none;
+}
+
+.api > .title:hover {
+    background-color: linen;
 }
 
 .api > .caption {
