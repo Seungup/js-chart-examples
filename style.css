@@ -63,6 +63,7 @@ p {
 
 .good li:hover, .bad li:hover {
     background-color: lavenderblush;
+    border-radius: 5%;
 }
 
 
@@ -70,3 +71,6 @@ p {
     padding-top: 14px;
 }
 
+.bad {
+    margin-bottom: 50px;
+}
