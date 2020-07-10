@@ -1,0 +1,34 @@
+hr {
+    color: var(--pretty-black);
+    width: 70%;
+    border-radius: 50%;
+    background-color: var(--pretty-black);
+}
+
+
+.btn {
+    cursor: pointer;
+    padding: 1em;
+    border: 1px solid skyblue;
+    background-color: rgba(0, 0, 0, 0);
+    color: skyblue;
+    margin-right: auto;
+}
+
+.btn:hover {
+    border: 1px solid deepskyblue;
+    color: rgb(0, 191, 255);
+    background-color: rgba(231, 234, 235, 0.288)
+}
+
+
+.example {
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.chart {
+    width: 50%; 
+    height: 100%; 
+    margin: 0 auto;
+}

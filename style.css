@@ -11,10 +11,10 @@ body, html {
     margin : auto;
     padding: 16px 32px;
     justify-items: center;
-    text-align: center;
 }
 
 .api {
+    margin-left: 15px;
     margin-bottom: 32px;
     vertical-align: top;
     width: 50%;
